@@ -12,6 +12,7 @@ import (
 	"google.golang.org/grpc"
 )
 
+//this is a test
 var (
 	serverAddr  = flag.String("addr", "localhost:14841", "Addr for grpc server")
 	listRouters = flag.Bool("listRouters", false, "List all active PCCs")
