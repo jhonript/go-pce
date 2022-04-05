@@ -4,11 +4,12 @@ import (
 	"context"
 	"flag"
 	"fmt"
-	"google.golang.org/grpc"
 	"log"
 	"os"
-	"github.com/mayuresh82/go-pce/pcep"
 	"text/tabwriter"
+
+	"github.com/mayuresh82/go-pce/pcep"
+	"google.golang.org/grpc"
 )
 
 var (
